@@ -5,5 +5,5 @@ sys.path.append(rp_scripts)
 import rhinopythonscripts
 
 from rhinopythonscripts import GeoJson2Rhino as geojson
-g = open('d:/temp/sample.geojson').read()
+g = open('C:/Users/JUWANHA/Desktop/LSM/2021/Study/Seoul/sample.geojson').read()
 gj_data = geojson.load(g)
